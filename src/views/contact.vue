@@ -28,7 +28,7 @@
                       name="name"
                       type="text"
                       placeholder="enter your full name"
-                      class="form-control"
+                      class="form-control" required
                     />
                     <!-- email -->
                     <label for="name" class="col-form-label-lg"> Email</label>
@@ -37,22 +37,21 @@
                       name="name"
                       type="text"
                       placeholder="enter your email"
-                      class="form-control"
+                      class="form-control" required
                     />
                     <!-- message -->
                     <div class="d-flex  my-3 h-50">
                         <label for="message" class="col-form-label-lg align-self-center"
                           >Message:
                         </label>
-                        <textarea name="message" id="message" class=" message ">
-                        </textarea>
+                        <textarea name="comment" id="message" class="measage" required></textarea>
                     </div>
                     <div class="buttons">
                       <center>
                         <input
                           type="Submit"
                           value="Submit"
-                          class="btn btn-dark "
+                          class="btn "
                         />
                       </center>
                     </div>
@@ -99,7 +98,8 @@
     margin-left: 153px;
 }
 .buttons{
-  width:250px
+  width:80px;
+  border:2px solid black;
 }
 
 #message{
