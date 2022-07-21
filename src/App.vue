@@ -23,7 +23,9 @@ components: {
 </script>
 
 <style >
-
+/* *{
+  background: rgba(0,0,0,0.5);
+} */
 :root{
  
 
@@ -47,5 +49,12 @@ p, li, h1, h2, h3, h4, h5, h6, span, input, a, div{
     overflow-x: hidden; 
      /* color:var(--text-color);
   background:var(--background-color); */
+  }
+
+  @media(max-width:320px){
+   #app{
+    width:200px;
+   } 
+
   }
 </style>

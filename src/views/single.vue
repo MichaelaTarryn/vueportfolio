@@ -15,7 +15,7 @@
         <br>
         <br>
         <p>Links:</p>
-        <div class="col-md-6" v-for="(link, index) in projects.link" :key="index">
+        <div class="col-md-6"  id="links" v-for="(link, index) in projects.link" :key="index">
            
            {{link}}
         </div>
@@ -56,4 +56,13 @@ export default{
     display:flex;
     justify-content:center;
  }
+
+ @media(max-width:320px){
+  
+   #single{
+    margin-bottom: 50px;
+    width:200px;
+   }
+
+}
 </style>

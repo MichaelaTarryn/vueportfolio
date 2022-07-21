@@ -7,7 +7,7 @@
     
       <div class="row">
 
-        <div class="col-md-4 mb-5" v-for="project in projects" :key="project">
+        <div class="col-md-4 " v-for="project in projects" :key="project">
 
           <div class="img-container clickhere">
             <p>{{project.title}}</p>
@@ -103,7 +103,6 @@ export default{
   
   }
    #portfolio{
-    width:480px;
     display: flex;
     justify-content: center;
   }
@@ -120,7 +119,7 @@ export default{
     transform: translateY(-40px);
 }
 .showme{
-  width:400px;
+  width:300px;
 }
 .img-fluid{
   margin-right:2px;
@@ -134,7 +133,6 @@ export default{
   
   }
   #portfolio{
-    width:770px;
     display: flex;
     justify-content: center;
   }
@@ -146,4 +144,16 @@ export default{
     transform: translateY(-40px);
 }
 }
+
+@media(max-width:320px){
+ 
+  .img-container{
+    margin-left:50px !important;
+
+    }
+  }
+  /* .img-container:hover .showme{
+   
+  } */
+
 </style>
