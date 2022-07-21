@@ -1,0 +1,13 @@
+[debug] [2022-07-21T12:41:25.490Z] ----------------------------------------------------------------------
+[debug] [2022-07-21T12:41:25.491Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Admin\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2022-07-21T12:41:25.491Z] CLI Version:   11.2.2
+[debug] [2022-07-21T12:41:25.492Z] Platform:      win32
+[debug] [2022-07-21T12:41:25.492Z] Node Version:  v18.2.0
+[debug] [2022-07-21T12:41:25.495Z] Time:          Thu Jul 21 2022 14:41:25 GMT+0200 (South Africa Standard Time)
+[debug] [2022-07-21T12:41:25.495Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-07-21T12:41:25.557Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-07-21T12:41:25.558Z] > authorizing via signed-in user (mward7006@gmail.com)
+[debug] [2022-07-21T12:41:25.558Z] [iam] checking project promichaela22 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-07-21T12:41:25.560Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/promichaela22:testIamPermissions [none]
+[debug] [2022-07-21T12:41:25.560Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/promichaela22:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}

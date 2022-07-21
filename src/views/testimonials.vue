@@ -102,5 +102,10 @@ export default {
     border-color: #414241!important;
     color:black !important ;
 }
-
+@media(max-width:320px){
+   
+.carousel-inner img{
+  width:120px
+}
+  }
 </style>
