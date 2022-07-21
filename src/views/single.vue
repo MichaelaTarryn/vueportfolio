@@ -1,5 +1,5 @@
 <template>
-<section class="text-dark  py-5  mb-5 " id="single">
+<section class="text-dark  py-5 " id="single">
 <div class="container">
 <div class="row">
     <h1>  {{projects.title}}</h1>
