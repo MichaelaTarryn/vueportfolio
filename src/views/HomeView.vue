@@ -74,4 +74,6 @@ export default {
     height:1%;
  
   }
+
+  
 </style>
