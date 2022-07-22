@@ -32,8 +32,8 @@ export default {
 #landing {
     background: 
       /* top, transparent red, faked with gradient */ linear-gradient(
-        rgba(0, 0, 0, 0.45),
-        rgba(0, 0, 0, 0.45) 
+        rgba(253, 253, 253, 0.45),
+        rgba(253, 250, 250, 0.45) 
       ),
       /* bottom, image */ url();
     background-size: cover;
