@@ -33,7 +33,7 @@ export default {
     background: 
       /* top, transparent red, faked with gradient */ linear-gradient(
         rgba(0, 0, 0, 0.45),
-        rgba(0, 0, 0, 0.45)
+        rgba(0, 0, 0, 0.45) 
       ),
       /* bottom, image */ url();
     background-size: cover;

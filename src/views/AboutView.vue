@@ -375,7 +375,7 @@ position: relative;
     border: 3px solid black;
   }
 .img-fluid{
-  height:97vh;
+  height:105vh;
 }
 
 #container2 {
