@@ -3,7 +3,15 @@
     <div class="container d-flex justify-content-center align-items-center flex-column h-100">
       <h1>Aspiring Full-Stack Developer</h1>
       <hr>
-      <h3 class="h5">For love of coding</h3>
+      <br>
+      <br>
+      <div id="rest">
+      <div id="icons"><i class="fa-solid fa-utensils"></i> eat</div>
+      <div id="icons1"><i class="fa-solid fa-bed"></i>sleep</div>
+      <div id="icons2"><i class="fa-solid fa-code"></i>code</div>
+      <div id="icons2"><i class="fa-solid fa-repeat"></i> repeat</div>
+     </div> 
+      
     </div>
   </section>
 </template>
@@ -27,10 +35,31 @@ export default {
         rgba(0, 0, 0, 0.45),
         rgba(0, 0, 0, 0.45)
       ),
-      /* bottom, image */ url(https://i.postimg.cc/g2yrhy1t/bg.jpg);
+      /* bottom, image */ url();
     background-size: cover;
     background-attachment: fixed;
     margin-top: 25px;
+  }
+  #rest{
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    color:white ;
+  }
+  #icons{
+    font-size: 82px;
+    max-width:190px;
+    color:white;
+  }
+  #icons1{
+    font-size: 82px;
+    max-width:190px;
+    
+  }
+  #icons2{
+    font-size: 82px;
+    max-width:190px;
+    color:white;
   }
   
   #landing h1 {
