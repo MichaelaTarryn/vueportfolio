@@ -3,7 +3,7 @@
   <section class=" text-black py-5" id="testimonials">
     <div class="container">
       <h2 class="section-title">
-        <center><u>Testimonial Carousel</u></center> 
+        <center>Testimonial Carousel</center> 
       </h2>
       <br />
       <section id="testimonials" class="vh-80">
@@ -48,6 +48,13 @@
                 data-bs-target="#carouselExampleIndicators"
                 data-bs-slide-to="4"
                 aria-label="Slide 5"
+                class="circle"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="5"
+                aria-label="Slide 6"
                 class="circle"
               ></button>
             </div>
@@ -107,5 +114,10 @@ export default {
 .carousel-inner img{
   width:120px
 }
+  }
+
+  .section-title {
+    text-decoration: underline;
+text-decoration-color:rgba(105, 104, 103, 0.888); 
   }
 </style>

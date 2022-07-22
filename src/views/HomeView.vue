@@ -27,7 +27,7 @@ export default {
         rgba(0, 0, 0, 0.45),
         rgba(0, 0, 0, 0.45)
       ),
-      /* bottom, image */ url(https://picsum.photos/1920/1200);
+      /* bottom, image */ url(https://i.postimg.cc/g2yrhy1t/bg.jpg);
     background-size: cover;
     background-attachment: fixed;
     margin-top: 25px;

@@ -1,7 +1,7 @@
 <template>
   <section class=" text-dark py-5" id="resume">
     <div class="container">
-      <h2 class="section-title"><center> <u>Resume</u></center></h2>
+      <h2 class="section-title"><center> Resume</center></h2>
       <div class="row">
         <div class="col-6" v-bind:class="{ active: index === 0 }"
             v-for="(resume, index) in resume"
@@ -40,6 +40,10 @@ export default {
 </script>
 
 <style scoped>
+  .section-title {
+    text-decoration: underline;
+text-decoration-color:rgba(105, 104, 103, 0.888); 
+  }
 #resume{
  background-color:var(--background-color);
 }

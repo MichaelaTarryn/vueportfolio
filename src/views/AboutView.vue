@@ -1,7 +1,7 @@
 <template>
- <section class=" text-dark  py-5 mt-3 " id="about">
+ <section class=" text-dark  py-5  " id="about">
     <div class="container">
-      <h2 class="section-title"><center><u> About Me</u> </center></h2>
+      <h2 class="section-title"><center>About Me</center></h2>
 
       <div class="row">
         <div class="col-md-4">
@@ -286,6 +286,10 @@ export default {
 }
 </script>
 <style scoped>
+.section-title {
+    text-decoration: underline;
+text-decoration-color:rgba(105, 104, 103, 0.888); 
+  }
 #about{
     background-color:var(--background-color)
 }
@@ -305,6 +309,7 @@ export default {
 position: relative;
 
 }
+
 
 .candidates .parcial .info .name{
     position: absolute;
@@ -342,7 +347,7 @@ position: relative;
          border-bottom-right-radius:10px;
          background: #ddddd2;
       -webkit-transition:3s all;
-      -webkit-animation-duration:1.5s ;
+      -webkit-animation-duration:1.9s ;
        -webkit-animation-name:animationProgress;
 
         

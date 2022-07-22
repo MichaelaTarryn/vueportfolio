@@ -139,10 +139,10 @@ export default createStore({
         testimonial:"Michaela is very talented,As someone who has witnessed her as work i could say she has a bright future ahead of her."
      },
      {
-      img:'https://i.postimg.cc/15P24Czg/Jared-2.jpg',
-      name:"Jared lsaac",
-      testimonial:"Michaela is an outgoing, hardworking, creative web developer. Who sets out to achieve her goal through perseverance and determination. As her colleague I see a bright future filled with prosperity beingset in front of her, with her iron will to overcome any impediments that comes her way. As such she has the set skills to fulfill any task that will be given to her making her a great asset to any business or company."
-   }
+      img:'https://i.postimg.cc/BbNV0gkK/Ikhlaas.png',
+      name:"Ikhlaas Rawoot",
+      testimonial:"Michaela is an outgoing, hardworking, creative web developer. Who sets out to achieve her goal through perseverance and determination."
+   },
         
 ],
 resume : [

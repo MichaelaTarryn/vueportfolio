@@ -1,9 +1,9 @@
 <template>
 <section  class=" text-dark py-5" id="portfolio">
-<div  class=" py-5 container 
+<div  class=" container 
     text-black" >
-    <h2><u><center>Projects</center>
-      </u></h2>
+    <h2><center>Projects</center>
+      </h2>
     
       <div class="row">
 
@@ -46,6 +46,10 @@ export default{
 
 </script>
 <style scoped>
+  h2 {
+    text-decoration: underline;
+text-decoration-color:rgba(105, 104, 103, 0.888); 
+  }
 #portfolio{
   background-color:var(--background-color)
 }

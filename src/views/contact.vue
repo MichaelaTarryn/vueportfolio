@@ -1,11 +1,9 @@
 <template>
-  <section class=" text-dark py-5 mt-3 mb-5" id="contact">
+  <section class=" text-dark py-5 mt-3" id="contact">
     <div class="container1">
-      <!-- <h2 class="section-title">Feel free to contact me for more information<span></span></h2> -->
-     
         <h2>
-          <u> <center>Feel <span class="color-green">free</span> to contact me for
-          information</center> </u>
+          <center>Feel free to contact me for
+          information</center>
         </h2>
       
       <div class="row">
@@ -51,7 +49,7 @@
                         <input
                           type="Submit"
                           value="Submit"
-                          class="btn "
+                          class="btn"
                         />
                       </center>
                     </div>
@@ -83,7 +81,10 @@
 <script>
 </script>
 <style scoped>
-
+  h2 {
+    text-decoration: underline;
+text-decoration-color:rgba(105, 104, 103, 0.888); 
+  }
 #contact{
   background-color:var(--background-color);
 }
@@ -95,11 +96,12 @@
     margin-bottom: 100px;
 }
 .container1 h2{
-    margin-left: 153px;
+    /* margin-left: 153px; */
 }
 .buttons{
   width:80px;
-  border:2px solid black;
+  background-color:rgba(105, 104, 103, 0.888) ;
+  color:black;
 }
 
 #message{

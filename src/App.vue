@@ -37,7 +37,7 @@ components: {
   --text-color:#fff;   
 }
 
-p, li, h1, h2, h3, h4, h5, h6, span, input, a, div{
+p, li, h1, h2, h3, h4, h5, h6, span, input,u, a, div{
   color: var(--text-color) !important;
  /* background-color: var(--background-color) */
 }
