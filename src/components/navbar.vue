@@ -43,14 +43,11 @@ export default {
     change(){
       this.dark = !this.dark
   document.body.classList.toggle("dark-theme");
-  if(document.body.classList.contains("dark-theme")){
-    icon
   }
     }
       
      }
- 
-}
+
 </script>
 <style>
  #navigation{

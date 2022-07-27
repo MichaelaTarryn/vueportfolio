@@ -3,7 +3,7 @@
     <div class="container">
       <h2 class="section-title"><center> Resume</center></h2>
       <div class="row">
-        <div class="col-6" v-bind:class="{ active: index === 0 }"
+        <div class="col-md-6" v-bind:class="{ active: index === 0 }"
             v-for="(resume, index) in resume"
             :key="index">
           <!-- 2022 -->
