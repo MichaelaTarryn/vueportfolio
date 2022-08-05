@@ -111,10 +111,9 @@ export default {
 @media(max-width:320px){
    
 .carousel-inner img{
-  width:120px
+  width:120px !important
 }
   }
-
   .section-title {
     text-decoration: underline;
 text-decoration-color:rgba(105, 104, 103, 0.888); 

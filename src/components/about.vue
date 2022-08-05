@@ -129,7 +129,7 @@
           </div>
           <div class="row p-2  mt-4">
             <div class="col-md-6">
-              <span><a class="btn btn-link text-dark" href="https://app.netlify.com/teams/mward7006/overview">live</a></span>
+              <span><a class="btn btn-link text-dark" href="www.linkedin.com/in/michaela-ward-6604561bb">Linkedin</a></span>
             </div>
             <div class="col-md-6">
              <span><a class="btn btn-link text-dark" href="https://github.com/MichaelaTarryn">Github</a></span> 
@@ -167,7 +167,7 @@
             <div class="row">
                 
                 <div class="col-md-4" @mouseover="animate4">
-                <h4>Active Listening</h4>
+                <h4>Determined</h4>
                 <div id="container5" ref="bar4" style="position: relative">
                     <span class="percent">100%</span>
                 </div>
