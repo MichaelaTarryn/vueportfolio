@@ -90,18 +90,18 @@ export default createStore({
              
       },
       {
-        id: 7,
-          img:'https://i.postimg.cc/nh4ZMv72/pro6.png',
-          title:'Card Design',
-          skills:['html', 'css'],
+        id: 8,
+          img:'https://i.postimg.cc/ZRxMWJxq/wigs.jpg',
+          title:'Wigs',
+          skills:['html', 'css','Vue','Vuex'],
           link:{ 
-              github:"https://github.com/MichaelaTarryn/cardexample1",
-              live:"https://iridescent-flan-b34d1e.netlify.app",
+              github:"https://github.com/MichaelaTarryn/wigsprojects",
+              live:"https://courageous-rolypoly-d63571.netlify.app",
           }
              
       },
       {
-        id: 8,
+        id: 9,
           img:'https://i.postimg.cc/TYGvFKBW/pro9.png',
           title:'Digital Portfolio demo',
           skills:['html', 'css'],
