@@ -93,7 +93,7 @@ export default createStore({
         id: 8,
           img:'https://i.postimg.cc/ZRxMWJxq/wigs.jpg',
           title:'Wigs',
-          skills:['html', 'css','Vue','Vuex'],
+          skills:['html', 'css','Vue','Vuex','bootstrap'],
           link:{ 
               github:"https://github.com/MichaelaTarryn/wigsprojects",
               live:"https://courageous-rolypoly-d63571.netlify.app",
