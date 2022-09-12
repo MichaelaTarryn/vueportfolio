@@ -7,4 +7,5 @@ import 'bootstrap'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
+
 createApp(App).use(store).use(router).mount('#app')

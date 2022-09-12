@@ -80,12 +80,12 @@ export default createStore({
       //third row
       {
         id: 7,
-          img:'https://i.postimg.cc/1zCPSv0n/pro4.png',
-          title:'Portfolio Layout',
-          skills:['html', 'css'],
+          img:'https://i.postimg.cc/266xt2ZJ/captone.jpg',
+          title:'Captone project',
+          skills:['html', 'css','vue.js','bootstrap','node.js','express.js'],
           link:{ 
-              github:"https://github.com/MichaelaTarryn/navexample",
-              live:"https://zesty-marzipan-b689d8.netlify.app/",
+              github:"https://github.com/MichaelaTarryn/capstone-frontend",
+              live:"https://mimmichaela-c6aef.firebaseapp.com/",
           }
              
       },
