@@ -92,7 +92,8 @@ export default {
 <style scoped>
 
 #testimonials{
-  background-color:var(--background-color)
+  background-color:var(--background-color);
+  font-family: 'Lobster', cursive;
 }
 .carousel-inner img{
   aspect-ratio: 1;

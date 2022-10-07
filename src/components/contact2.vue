@@ -91,6 +91,7 @@ text-decoration-color:rgba(105, 104, 103, 0.888);
   }
 #contact{
   background-color:var(--background-color);
+  font-family: 'Lobster', cursive;
 }
 .container{
   background-color: var(--background-color);

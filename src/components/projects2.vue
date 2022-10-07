@@ -49,7 +49,9 @@ text-decoration-color:rgba(105, 104, 103, 0.888);
 #portfolio{
   background-color:var(--background-color)
 }
-
+p{
+  font-family: 'Lobster', cursive;
+}
 .projects-container {
   display: flex;
   flex-wrap: wrap;

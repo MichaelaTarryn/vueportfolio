@@ -52,6 +52,10 @@ text-decoration-color:rgba(105, 104, 103, 0.888);
   padding-left: 20px;
   position: relative;
 }
+i{
+  font-family: italic;
+}
+
 
 .experience-container::before {
   position: absolute;

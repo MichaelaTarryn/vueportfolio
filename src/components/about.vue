@@ -286,7 +286,8 @@ export default {
 text-decoration-color:rgba(105, 104, 103, 0.888); 
   }
 #about{
-    background-color:var(--background-color)
+    background-color:var(--background-color);
+    font-family: italic;
 }
 
 .percent{
@@ -305,7 +306,9 @@ position: relative;
 
 }
 
-
+p{
+    font-style: italic;
+}
 .candidates .parcial .info .name{
     position: absolute;
     top:0;
@@ -329,7 +332,8 @@ position: relative;
             height: 7px;
             margin: 30px 0 2px;
             border-radius: 10px;
-            background-color: rgb(57, 61, 60);
+            background-color: #ddddd2
+            /* background-color: rgb(57, 61, 60); */
             }
      
             .candidates .parcial .percentagesm{
@@ -340,7 +344,8 @@ position: relative;
           border-top-left-radius:10px;
              border-bottom-left-radius:10px;
          border-bottom-right-radius:10px;
-         background: #ddddd2;
+         background: rgb(57, 61, 60);
+         /* background: #ddddd2; */
       -webkit-transition:3s all;
       -webkit-animation-duration:1.9s ;
        -webkit-animation-name:animationProgress;
