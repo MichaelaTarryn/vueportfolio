@@ -45,6 +45,7 @@ export default {
   background-attachment: fixed;
   margin-top: 25px;
   min-height: 100vh;
+  font-family: 'Lobster', cursive;
 }
 #rest {
   width: 900px;
@@ -68,7 +69,6 @@ export default {
 }
 
 #landing h1 {
-  font-family: "Open Sans", sans-serif;
   font-size: 2em;
 }
 

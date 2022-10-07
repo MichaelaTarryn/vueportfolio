@@ -7,7 +7,7 @@
         <div class="col-md-4">
          <img class="img-fluid"  :src="this.$store.state.profileUrl" alt="">
         </div>
-        <div class="col-md-8 ">
+        <div class="col-md-8">
           <div class="row p-1">
             <div class="col-md-12">
               <p>
@@ -52,10 +52,10 @@
                             <div class="parcial">
                                 <div class="info">
                                     <div class="percentage-num">
-                                        100%
+                                        90%
                                     </div>
                                     <div class="progressBar">
-                                        <div class="percentagesm" style="width:100%;"></div>
+                                        <div class="percentagesm" style="width:90%;"></div>
                                     </div>
                                 </div>
                             </div>
@@ -74,10 +74,10 @@
                             <div class="parcial">
                                 <div class="info">
                                     <div class="percentage-num">
-                                        100%
+                                        90%
                                     </div>
                                     <div class="progressBar">
-                                        <div class="percentagesm" style="width:100%;"></div>
+                                        <div class="percentagesm" style="width:90%;"></div>
                                     </div>
                                 </div>
                             </div>
@@ -127,41 +127,34 @@
                     </div>
                 </div>
           </div>
-          <div class="row p-2  mt-4">
-            <div class="col-md-6">
-              <span><a class="btn btn-link text-dark" href="www.linkedin.com/in/michaela-ward-6604561bb">Linkedin</a></span>
-            </div>
-            <div class="col-md-6">
-             <span><a class="btn btn-link text-dark" href="https://github.com/MichaelaTarryn">Github</a></span> 
-            </div>
-          </div>
+       
 
 
         </div>
         <br>
         <br>
         <br>
-        <div class="row">
+        <div class="row mx-auto">
             <h2> <center><u>Soft Skills</u></center></h2>
             <div class="col-md-4" @mouseover="animate1">
         
                 <h4>Patients</h4>
                 <div id="container2" ref="bar1" style="position: relative">
-                    <span class="percent">100%</span>
+                    <span class="percent">95%</span>
                 </div>
             </div>
             <div class="col-md-4" @mouseover="animate2">
                 <h2></h2>
                 <h4>Teamwork</h4>
                 <div id="container3" ref="bar2" style="position: relative">
-                    <span class="percent">100%</span>
+                    <span class="percent">97%</span>
                 </div>
             </div>
             <div class="col-md-4" @mouseover="animate3">
                 <h2></h2>
                 <h4>Active Listening</h4>
                 <div id="container4" ref="bar3" style="position: relative">
-                    <span class="percent">100%</span>
+                    <span class="percent">98%</span>
                 </div>
             </div>
             <div class="row">
@@ -169,19 +162,19 @@
                 <div class="col-md-4" @mouseover="animate4">
                 <h4>Determined</h4>
                 <div id="container5" ref="bar4" style="position: relative">
-                    <span class="percent">100%</span>
+                    <span class="percent">96%</span>
                 </div>
             </div>
             <div class="col-md-4" @mouseover="animate5">
                 <h4>Reliable</h4>
                 <div id="container6" ref="bar5" style="position: relative">
-                    <span class="percent">100%</span>
+                    <span class="percent">97%</span>
                 </div>
             </div>
             <div class="col-md-4" @mouseover="animate6">
                 <h4>Time-Management</h4>
                 <div id="container7" ref="bar6" style="position: relative">
-                    <span class="percent">100%</span>
+                    <span class="percent">97%</span>
                 </div>
             </div>
             </div>
@@ -376,9 +369,9 @@ position: relative;
     background-color: white;
     border: 3px solid black;
   }
-.img-fluid{
+/* .img-fluid{
   height:105vh;
-}
+} */
 
 #container2 {
   margin: 20px;

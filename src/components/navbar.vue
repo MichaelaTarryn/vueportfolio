@@ -2,7 +2,7 @@
     <section id="navigation">
         <nav class="navbar navbar-expand-lg navbar-light  fixed-top ">
           <div class="container-fluid">
-            <div class="navbar-brand" href="#">MICHAELA</div>
+            <div class="navbar-brand" href="#">MICHAELA Ward</div>
             <button class="navbar-toggler" type="button"  aria-label="Toggle navigation" @click="toggler">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -51,7 +51,7 @@ export default {
 </script>
 <style>
  #navigation{
-    font-family: "Open Sans",sans-serif;
+    font-family: 'Alkalami', serif;
     font-size: 1em;
     color: rgb(241, 237, 237);
     text-transform: uppercase;

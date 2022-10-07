@@ -23,12 +23,12 @@ components: {
 </script>
 
 <style >
+
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Barlow+Condensed:ital,wght@0,600;1,900&family=Lobster&display=swap');
 /* *{
   background: rgba(0,0,0,0.5);
 } */
 :root{
- 
-
    --background-color:#fafafa;
   --text-color:#212121;  
 }
@@ -44,6 +44,13 @@ p, li, h1, h2, h3, h4, h5, h6, span, input,u, a, div{
  /* p, li, h3, h4, h5, h6, span, input, a{
  background-color: var(--background-color)
 }  */
+
+h2{
+  font-family: 'Lobster', cursive;
+}
+h6{
+  font-family: 'Barlow Condensed', sans-serif;
+}
 
   body {
     overflow-x: hidden; 
